@@ -40,6 +40,6 @@ project/
 
 ## 🧠 Author
 
-Built with 💙 by [Rana Elwakeel]
+Built with 💙 by Rana Elwakeel
 
 
