@@ -1,0 +1,56 @@
+   
+   #thank-you{
+        display: flex;
+        flex-flow: column nowrap;
+        width: 100%;
+    }
+    #thank-you img{
+        width: 100%;
+        max-width: 250px;
+        margin: 10px auto;
+    }
+    #Rating-paragrph{
+        width: 100%;
+        max-width: 300px;
+        background-color: hsl(213, 19%, 18%);
+        color: hsl(25, 97%, 53%);
+        border-radius: 20px;
+        padding: 10px;
+        text-align: center;
+        margin: 30px  auto;
+        font-size: 1.1rem;
+    }
+    h2{
+        text-align: center;
+        font-weight: 700;
+        font-size: 2rem;
+        margin: 15px;
+    }
+    #thank-you p:last-child{
+        margin-top: 5px;
+        text-align: center;
+        color:  hsl(217, 12%, 63%);
+        font-weight: 400;
+        font-size: 1.2rem;
+    }
+ @media screen and (min-width:374px) and (max-width:767px) {
+    #thank-you{
+            padding: 30px;
+            max-width:  70%;
+    }
+      #thank-you img{
+        max-width: 150px;
+    }
+
+
+ }
+
+   @media screen and  (min-width: 768px) and (max-width: 992px){
+    #thank-you{
+            max-width: 46%;
+            padding: 40px;
+    }
+      #thank-you img{
+        max-width: 200px;
+    }
+   }
