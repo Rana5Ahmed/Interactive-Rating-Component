@@ -4,10 +4,13 @@
         flex-flow: column nowrap;
         width: 100%;
     }
-    #thank-you img{
-        width: 100%;
-        max-width: 250px;
-        margin: 10px auto;
+     #thank-you img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    object-fit: contain;
     }
     #Rating-paragrph{
         width: 100%;
